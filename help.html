@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+    <title>AI Healthcare Hub</title>
+
+    <!--Favicon Icom-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon-icon.png">
+
+    <!--Bootstrap Custom CSS-->
+    <link rel="stylesheet" href="./dist/css/main.css" crossorigin="anonymous" />
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
+
+    <!--icon-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+
+    <!--Bootstrap Icon-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="spinnerContainer" id="loader">
+      <div class="spinner">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- ======= Header ======= -->
+    
+<div class="alan-btn"></div>
+<script type="text/javascript"
+ src="https://studio.alan.app/web/lib/alan_lib.min.js"></script>
+<script>
+  var alanBtnInstance = alanBtn({
+    key: "f65cbb6930ad9e79c7e788c4b0caed3c2e956eca572e1d8b807a3e2338fdd0dc/stage",
+    onCommand: function (commandData) {
+      if (commandData.command === "go:back") {
+        //call client code that will react to the received command
+      }
+    },
+    rootEl: document.getElementById("alan-btn"),
+  });
+</script>
+
+    <header id="header" class="d-flex align-items-center">
+      <div class="container d-flex align-items-center justify-content-between">
+        <h1 class="logo"><a href="index.html">Menses</a></h1>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li>
+              <a class="nav-link scrollto active" href="main.html"
+                ><i class="bi bi-house-door"></i> Home</a
+              >
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!--Help Page-->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="row justify-content-center">
+          <div class="col-xl-12">
+            <ul class="faq-list">
+              <li>
+                <div
+                  data-bs-toggle="collapse"
+                  class="collapsed question"
+                  href="#faq1"
+                >
+                  What is period poverty?
+                  <i class="bi bi-chevron-down icon-show"></i
+                  ><i class="bi bi-chevron-up icon-close"></i>
+                </div>
+                <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Period poverty is a worldwide problem. It describes a lack
+                    of access to menstrual products, sanitation, and relevant
+                    information.
+                    <br />
+                    Read this article for more information.
+                    <a
+                      href="https://www.globalcitizen.org/en/content/period-poverty-everything-you-need-to-know/ "
+                      >Click here</a
+                    >
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  data-bs-toggle="collapse"
+                  href="#faq2"
+                  class="collapsed question"
+                >
+                  How should this application be used?
+                  <i class="bi bi-chevron-down icon-show"></i
+                  ><i class="bi bi-chevron-up icon-close"></i>
+                </div>
+                <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    This application contains two type of user, one is donor
+                    (who is willing to help /donate) and another user is needy
+                    (who is suffering from period poverty). Both the users are
+                    able to access features of application directly using "User"
+                    button. But for donation purpose donor need to register on
+                    the site and give required information so that it will be
+                    easier for needy to contact them. Features of the
+                    application are as follows -
+                    <br /><br />
+                    Map - Map will help user to find donors near their location
+                    and get their contact information quickly. Click on the
+                    location icon and get required information about donor.
+                    <br /><br />
+                    Flip Card - it is the health tip card which shows user
+                    random health tips related to mensuration. Click on "new
+                    tip!" Button to get new tip.
+                    <br /><br />
+                    Counselling - for user convince , there is counsellor page
+                    where user can schedule meeting with counsellor. User are
+                    able to contact our experts (who work as volunteer for
+                    helping people) and get advice at no cost.
+                    <br /><br />
+                    Space - space is a global chat where one can connect with
+                    like minded people and ask questions , healp others , and
+                    discuss the related things.
+                    <br /><br />
+                    Help - this section contains some common queries and answers
+                    related to application. It's basically a guide for users and
+                    contains common information about application.
+                    <br /><br />
+                    Contact us- user are able to send their feedback directly to
+                    us through contact us page.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  data-bs-toggle="collapse"
+                  href="#faq3"
+                  class="collapsed question"
+                >
+                  How do I make a sanitary kit donation?
+                  <i class="bi bi-chevron-down icon-show"></i
+                  ><i class="bi bi-chevron-up icon-close"></i>
+                </div>
+                <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Donors can register on this application and give right
+                    information so that user(needy) are able to contact them
+                    easily. once donor register their information will be shown
+                    on map . Then user will find donor and contact them directly
+                    using provided information.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  data-bs-toggle="collapse"
+                  href="#faq4"
+                  class="collapsed question"
+                >
+                  How can I get in touch with the organization/donor who is
+                  donating sanitary kits?
+                  <i class="bi bi-chevron-down icon-show"></i
+                  ><i class="bi bi-chevron-up icon-close"></i>
+                </div>
+                <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Donor can be found on the map section. Navigate to the map
+                    and look for the donor, who is represented by the Tiffany
+                    blue colour location icon. Click on that icon to get all of
+                    the necessary information about the donor, including contact
+                    information.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  data-bs-toggle="collapse"
+                  href="#faq5"
+                  class="collapsed question"
+                >
+                  How to help ending period poverty?
+                  <i class="bi bi-chevron-down icon-show"></i
+                  ><i class="bi bi-chevron-up icon-close"></i>
+                </div>
+                <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Ending period poverty or period shame cannot begin and
+                    finish with simply giving period supplies such as pads and
+                    tampons; rather, it must begin with education and addressing
+                    discriminatory attitudes and beliefs.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  data-bs-toggle="collapse"
+                  href="#faq6"
+                  class="collapsed question"
+                >
+                  Is this application only for women/girls?
+                  <i class="bi bi-chevron-down icon-show"></i
+                  ><i class="bi bi-chevron-up icon-close"></i>
+                </div>
+                <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    No! This application is for everyone. Menstruation is a
+                    biological function&#59; it’s not a “woman thing.” and all
+                    the people who menstruate are not women. Genderqueer or non
+                    binary people also menstruate. We motivate men to support
+                    women and help them get out of this problem.
+                    <br />
+                    Read this article for more information- "Talking about
+                    periods beyond gender"
+                    <a
+                      href="https://helloclue.com/articles/cycle-a-z/talking-about-periods-beyond-gender"
+                      >Click here</a
+                    >
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Frequently Asked Questions Section -->
+
+    <!--Bootstrap JQuery and Javascript-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./dist/js/loader.js"></script>
+  </body>
+</html>
