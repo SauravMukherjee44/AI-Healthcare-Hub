@@ -29,3 +29,31 @@ To run this project locally, ensure you have the following installed:
 1. Clone the repository:
    ```bash
    git clone https://github.com/SauravMukherjee44/AI-HealthCare-Hub.git
+
+## Navigate to the project directory:
+```bash
+cd AI-HealthCare-Hub
+```
+Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
+Usage
+Start the application:
+```bash
+python app.py
+```
+Open your web browser and visit http://localhost:5000 to access the platform.
+## Project Structure
+/static: Contains CSS, JavaScript, and image files for the front-end.
+/templates: HTML files for the web pages.
+/models: Machine learning models for disease prediction and diagnosis.
+app.py: Main Flask application file.
+requirements.txt: Python dependencies for the project.
+
+## Future Work
+- Real-Time Monitoring: Implement real-time health data monitoring with edge computing.
+- Genetic Integration: Collaborate for genomic data inclusion.
+- Global Expansion: Tailor the platform for global reach and diverse healthcare needs.
+- AI-Driven Drug Discovery: Investigate AI applications in drug discovery for personalized medication.
+
